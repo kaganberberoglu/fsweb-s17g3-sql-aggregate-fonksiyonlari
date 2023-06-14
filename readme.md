@@ -23,7 +23,7 @@ Yazdığınız sorguları buradan test edebilirsiniz: [https://ergineer.com/asse
 # Görevler
 Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını yazın.
 
-1) Öğrencinin adını, soyadını ve kitap aldığı tarihleri listeleyin. 
+1) Öğrencinin adını, soyadını ve kitap aldığı tarihleri listeleyin.
 
     select o.ograd, o.ogrsoyad, i.atarih from ogrenci o, islem i 
     where o.ogrno = i.ogrno 
